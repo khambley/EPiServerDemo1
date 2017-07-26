@@ -1,0 +1,84 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v10/SKK6Nusyv8QPNMtI4j9J2wsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v10/gFXtEMCp1m_YzxsBpKl68gsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcnv4bDVR720piddN5sbmjzs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcjrEaqfC9P2pvLXik1Kbr9s.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+html, body {margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; }
+.container {max-width: 940px; margin: 0 auto; padding: 0;}
+/* Header */ 
+.header {background-color:#30627E; }
+.header ul {list-style: none; text-align: center; margin: 0; padding: 0;}
+.header li {color: #fff; display: inline-block; font-size: 20px; text-align: center; padding: 20px 30px; margin: 0; } 
+.header .main {font-size: 28px; background-color: #e52364; }
+/* Jumbotron */ 
+.jumbotron {background: url(../imgs/bg.jpg) no-repeat center center; background-size: cover; height: 500px; text-align: center; margin-bottom: 0; }
+.jumbotron h1 {color: #e52364; font-weight: 700; }
+/* Supporting */ 
+.supporting {text-align: center; padding: 60px 30px 80px; } 
+.supporting h2 {color:#333; font-size: 30px; margin-top: 0; } 
+.supporting p {font-family: 'Open Sans', sans-serif; font-size: 14px; min-height: 80px; } 
+.btn {font-size:16px; border-radius:0px; margin: 20px auto 60px; padding: 10px 20px; color: #30627E; width: 200px; border: 1px solid #30627E; text-transform: uppercase; }
+/* Footer */ 
+.footer {color:#fff; background-color: #e52364; padding: 20px; } 
+.copy {padding-top: 10px; } 
+.nav li a {color: #fff; }
+ /*media queries*/
+@media (max-width: 500px) { 
+  ul li { width: 100%; } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

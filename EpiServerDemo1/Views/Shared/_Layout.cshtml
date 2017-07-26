@@ -1,0 +1,45 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+<!DOCTYPE html>
+<html lang="@Html.ViewContext.RequestContext.RouteData.Values["lang"]">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="generator" content="EPiServer CMS Falcon" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Adoptly (EpiServer Demo)</title>
+    <link rel="stylesheet" href="@Href(Url.Content("~/Content/bootstrap.min.css"))" media="all" />
+    <link rel="stylesheet" href="@Href(Url.Content("~/Content/style.css"))" media="all" />
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <ul>
+                <li class="main">Adoptly</li>
+                <li>About</li>
+                <li>Animals</li>
+                <li>Blog</li>
+                <li>Events</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container main-content">
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="copy">© Adoptly</div>
+                </div>
+                <div class="col-md-10">
+                    <ul class="nav nav-pills pull-right">
+                        <li><a href="https://s3.amazonaws.com/codecademy-content/projects/adoptly/index.html#">FAQ</a></li>
+                        <li><a href="https://s3.amazonaws.com/codecademy-content/projects/adoptly/index.html#">Contact</a></li>
+                    </ul>
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </div>  <!-- End footer -->
+</body>
+</html>
