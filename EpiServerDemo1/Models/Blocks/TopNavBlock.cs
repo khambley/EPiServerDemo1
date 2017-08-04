@@ -12,11 +12,11 @@ namespace EpiServerDemo1.Models.Blocks
 
         [CultureSpecific]
         [Display(
-            Name = "Name",
-            Description = "Name field's description",
+            Name = "Parent Page",
+            Description = "Select the parent of the pages you want to display",
             GroupName = SystemTabNames.Content,
             Order = 1)]
-        public virtual string Name { get; set; }
+        public virtual PageReference ParentPage { get; set; }
 
     }
 }
